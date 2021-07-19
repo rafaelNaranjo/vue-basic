@@ -5,6 +5,8 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import './plugins/boostrap-plugin'
+
 new Vue({
   router,
   store,
